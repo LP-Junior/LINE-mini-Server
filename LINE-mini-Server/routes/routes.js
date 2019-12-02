@@ -4,10 +4,14 @@
 
 const express = require('express');
 const router = express.Router();
-
+/*
 router.use('/', function(req, res) { 
     return res.send('Hello')
   });  
+*/
+
+// Test
+router.use('/test', require('./test'));
 
 // User
 router.use('/user', require('./user/user_routes'));
