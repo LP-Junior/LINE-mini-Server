@@ -1,6 +1,6 @@
 var express = require('express');
 var router = express.Router();
-const db = require('../../module/pool.js');
+const db = require('../module/pool.js');
 
 /* test */
 router.get('/', function(req, res, next) {
